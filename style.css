@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+#addTask{
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+}
+#addTask:hover{
+    opacity: 85%;
+}
+.task{
+
+}
