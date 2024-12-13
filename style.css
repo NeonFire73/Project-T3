@@ -9,6 +9,11 @@
 #addTask:hover{
     opacity: 85%;
 }
-.task{
+#addition{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#inputField{
 
 }
