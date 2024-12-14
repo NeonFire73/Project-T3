@@ -1,9 +1,15 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: #FDEACA;
+}
+img{
+    background-color: #FDEACA;
+}
 #addTask{
     border: none;
-    background-color: white;
+    background-color: #FDEACA;
     border-radius: 50%;
 }
 #addTask:hover{
@@ -14,6 +20,16 @@
     flex-direction: row;
     align-items: center;
 }
-#inputField{
-
+.wrapper{
+    word-wrap: break-word;
+    width: 1000px;
+}
+.taskText{
+    font-size: 17px;
+}
+.task{
+    margin: 10px 0px;
+}
+.lineThrow{
+    text-decoration: line-through;
 }
