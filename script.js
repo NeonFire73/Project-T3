@@ -26,6 +26,6 @@ $(document).ready(function(){
         })
     });
     $('.wrapper').on("click", '.done', function () { //Функція, яка робить дане завдання перечеркнутим
-        $('.taskText').toggleClass('lineThrow')
+        $(this).parent().find('span.taskText').toggleClass('lineThrow');
     });
 });
